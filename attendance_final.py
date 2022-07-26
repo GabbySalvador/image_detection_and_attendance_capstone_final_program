@@ -4,7 +4,7 @@ import face_recognition
 import os
 from datetime import datetime
 
-path = 'People_Folder_copy'
+path = 'People_Folder_copy' #the path variable should hold the actual path of the folder where the images are inputted
 list_people_images= []
 image_names = []
 myList = os.listdir(path)
